@@ -1,7 +1,10 @@
 import React from 'react'
+import AnimalCard from '../cards/AnimalCard'
 
 export default function HomePage() {
   return (
-    <div>HomePage</div>
+    <div className='mt-12'>
+      <AnimalCard/>
+    </div>
   )
 }
